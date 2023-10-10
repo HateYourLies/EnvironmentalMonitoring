@@ -1,0 +1,5 @@
+com/briup/client/back/BackupImpl.class
+com/briup/client/main/ClientMain.class
+com/briup/client/gather/GatherImpl.class
+com/briup/client/send/SendImpl.class
+com/briup/client/ConfigurationImpl.class

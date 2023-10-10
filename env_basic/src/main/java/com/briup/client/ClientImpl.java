@@ -1,0 +1,41 @@
+package com.briup.client;
+
+import com.briup.entity.Environment;
+
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.util.List;
+
+
+public class ClientImpl {
+    /**
+     * 发送数据
+     * @param list 采集的数据
+     */
+    public void send(List<Environment> list){
+        Socket socket = null;
+        ObjectOutputStream oos = null;
+        try {
+            socket = new Socket("localhost",9999);
+            // 对象流输出流
+            oos = new ObjectOutputStream(socket.getOutputStream());
+            oos.writeObject(list);
+            oos.flush();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }finally {
+            try {
+                if (oos != null) {
+                    oos.close();
+                }
+                if (socket != null) {
+                    socket.close();
+                }
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+}

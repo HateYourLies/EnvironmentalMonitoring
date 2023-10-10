@@ -1,0 +1,17 @@
+package com.briup.main;
+
+import com.briup.client.ClientImpl;
+import com.briup.gather.GatherImpl;
+
+/**
+ * @Auther: vanse(lc)
+ * @Date: 2023/9/21-09-21-14:21
+ * @Description：com.briup.main
+ */
+public class ClientMain {
+    public static void main(String[] args) {
+        ClientImpl client = new ClientImpl();
+        GatherImpl gather = new GatherImpl();
+        client.send(gather.gatherData());
+    }
+}

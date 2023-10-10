@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+    <!--客户端相关的配置-->
+    <send class="com.briup.client.send.SendImpl">
+        <reciver-server-port>9999</reciver-server-port>
+        <host>localhost</host>
+    </send>
+    <gather class="com.briup.client.gather.GatherImpl">
+       <gather-file-path>data-file-simple</gather-file-path>
+        <backup-file-path>backup.txt</backup-file-path>
+    </gather>
+    <backup class="com.briup.client.back.BackupImpl"></backup>
+
+</environment>

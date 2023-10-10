@@ -1,0 +1,4 @@
+com/briup/server/dbstore/DBStoreImpl.class
+com/briup/server/main/ServerMain.class
+com/briup/server/ConfigurationImpl.class
+com/briup/server/receive/ReceiveImpl.class

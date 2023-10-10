@@ -1,0 +1,13 @@
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/entity/Environment.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/joint/DBStore.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/utils/TestDatasource.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/entity/Student.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/Configuration.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/utils/CopyUtil.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/PropertiesAware.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/joint/Send.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/utils/ConnectionUtil.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/joint/Gather.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/joint/Backup.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/joint/Receive.java
+/Users/vanse/Desktop/jd2312/env_advance/env_common/src/main/java/com/briup/common/ConfigurationAware.java

@@ -1,0 +1,25 @@
+package com.briup.gather;
+
+import org.junit.Test;
+
+import java.sql.Timestamp;
+
+/**
+ * @Auther: vanse(lc)
+ * @Date: 2023/9/21-09-21-09:33
+ * @Description：com.briup.gather
+ */
+public class TestGatherImpl {
+    @Test
+    public void test(){
+        GatherImpl gather = new GatherImpl();
+        gather.gatherData();
+    }
+
+    @Test
+    public void test1(){
+        long l = 1516323596029l;
+        Timestamp timestamp = new Timestamp(l);
+        System.out.println("timestamp = " + timestamp);
+    }
+}
