@@ -19,9 +19,9 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <mysql.verson>8.0.30</mysql.verson>
+        <mysql.verson>8.0.33</mysql.verson>
         <junit.version>4.12</junit.version>
-        <druid.version>1.2.14</druid.version>
+        <druid.version>1.2.23</druid.version>
         <common.version>1.0-SNAPSHOT</common.version>
     </properties>
 
